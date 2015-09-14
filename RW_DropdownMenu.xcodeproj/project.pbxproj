@@ -19,6 +19,7 @@
 		9A6CE6121BA6F236009317D2 /* DropdownButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A6CE60D1BA6F236009317D2 /* DropdownButton.m */; };
 		9A6CE6131BA6F236009317D2 /* DropdownMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A6CE60F1BA6F236009317D2 /* DropdownMenu.m */; };
 		9A6CE6141BA6F236009317D2 /* expandableImage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A6CE6101BA6F236009317D2 /* expandableImage@2x.png */; };
+		9A6CE6171BA7068B009317D2 /* demo.gif in Resources */ = {isa = PBXBuildFile; fileRef = 9A6CE6161BA7068B009317D2 /* demo.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		9A6CE60F1BA6F236009317D2 /* DropdownMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DropdownMenu.m; sourceTree = "<group>"; };
 		9A6CE6101BA6F236009317D2 /* expandableImage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "expandableImage@2x.png"; sourceTree = "<group>"; };
 		9A6CE6151BA6F395009317D2 /* CommonDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommonDefine.h; sourceTree = "<group>"; };
+		9A6CE6161BA7068B009317D2 /* demo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = demo.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 		9A6CE5DE1BA6F15D009317D2 /* RW_DropdownMenu */ = {
 			isa = PBXGroup;
 			children = (
+				9A6CE6161BA7068B009317D2 /* demo.gif */,
 				9A6CE6091BA6F22B009317D2 /* DropdownMenu */,
 				9A6CE6051BA6F167009317D2 /* Demo */,
 				9A6CE5E31BA6F15D009317D2 /* AppDelegate.h */,
@@ -242,6 +245,7 @@
 			files = (
 				9A6CE5EB1BA6F15D009317D2 /* Main.storyboard in Resources */,
 				9A6CE5F01BA6F15D009317D2 /* LaunchScreen.xib in Resources */,
+				9A6CE6171BA7068B009317D2 /* demo.gif in Resources */,
 				9A6CE6141BA6F236009317D2 /* expandableImage@2x.png in Resources */,
 				9A6CE5ED1BA6F15D009317D2 /* Images.xcassets in Resources */,
 			);
@@ -466,6 +470,7 @@
 				9A6CE6011BA6F15D009317D2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9A6CE6021BA6F15D009317D2 /* Build configuration list for PBXNativeTarget "RW_DropdownMenuTests" */ = {
 			isa = XCConfigurationList;
@@ -474,6 +479,7 @@
 				9A6CE6041BA6F15D009317D2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
