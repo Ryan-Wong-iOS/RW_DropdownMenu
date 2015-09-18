@@ -16,7 +16,8 @@
 - (void)dropdownSelectedLeftIndex:(NSString *)left RightIndex:(NSString *)right; {
     NSLog(@"%s : You choice %@ and %@", __FUNCTION__, left, right);
 }
-<p>
+
 ### Demo
+<p>
 ![image](https://github.com/Ryan-Wong-iOS/RW_DropdownMenu/blob/master/RW_DropdownMenu/demo.gif)
 </p>
