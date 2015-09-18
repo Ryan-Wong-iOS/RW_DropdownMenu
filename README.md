@@ -17,7 +17,9 @@
     NSLog(@"%s : You choice %@ and %@", __FUNCTION__, left, right);
 }
 
-### Demo
+
+
+
 <p>
 ![image](https://github.com/Ryan-Wong-iOS/RW_DropdownMenu/blob/master/RW_DropdownMenu/demo.gif)
 </p>
