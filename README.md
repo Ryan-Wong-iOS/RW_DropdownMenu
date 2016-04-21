@@ -19,7 +19,7 @@
 
 ### Thanks
 感谢大家对我的支持，最近做了一些小更新；
-2016-04-21 -- 增加返回选的第几个button(或者选中的是第几个列表)；选中后button显示选中值
+<br/ >2016-04-21 -- 增加返回选的第几个button(或者选中的是第几个列表)；选中后button显示选中值
 
 ### Demo
 ![image](https://github.com/Ryan-Wong-iOS/RW_DropdownMenu/blob/master/RW_DropdownMenu/demo.gif)
