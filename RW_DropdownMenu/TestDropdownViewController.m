@@ -56,7 +56,7 @@
 - (void)testLeftArray {
     NSArray *One_leftArray = @[@"附近", @"熱門商區", @"香洲區", @"斗門區", @"金灣區"];
     NSArray *Two_leftArray = [[NSArray alloc] init];
-//    NSArray *R_leftArray = @[@"Test1", @"Test2"];
+    //    NSArray *R_leftArray = @[@"Test1", @"Test2"];
     
     
     _leftArray = [[NSArray alloc] initWithObjects:One_leftArray, Two_leftArray, nil];
@@ -120,8 +120,8 @@
 }
 
 //实现代理，返回选中的下标，若左边没有列表，则返回0
-- (void)dropdownSelectedLeftIndex:(NSString *)left RightIndex:(NSString *)right; {
-    NSLog(@"%s : You choice %@ and %@", __FUNCTION__, left, right);
+- (void)dropdownSelectedButtonIndex:(NSString *)index LeftIndex:(NSString *)left RightIndex:(NSString *)right {
+    NSLog(@"%s : You choice button %@, left %@ and right %@", __FUNCTION__, index, left, right);
 }
 
 - (void)didReceiveMemoryWarning {

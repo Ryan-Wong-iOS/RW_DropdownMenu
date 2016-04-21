@@ -13,7 +13,7 @@
 @protocol dropdownDelegate <NSObject>
 
 @optional
-- (void)dropdownSelectedLeftIndex:(NSString *)left RightIndex:(NSString *)right;
+- (void)dropdownSelectedButtonIndex:(NSString *)index LeftIndex:(NSString *)left RightIndex:(NSString *)right;
 
 @end
 
@@ -25,6 +25,7 @@
     NSInteger _buttonSelectedIndex;
     NSMutableArray *_buttonIndexArray;
     
+    NSArray *_titles;
     NSArray *_leftArray;
     NSArray *_rightArray;
 }
