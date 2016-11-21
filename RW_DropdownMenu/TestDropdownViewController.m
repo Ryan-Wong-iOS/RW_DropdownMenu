@@ -49,17 +49,19 @@
 
 //每个下拉的标题
 - (void) testTitleArray {
-    _titleArray = @[@"附近", @"菜品"];
+    _titleArray = @[@"附近", @"菜品",@"特殊",@"运动"];
 }
 
 //左边列表可为空，则为单下拉菜单，可以根据需要传参
 - (void)testLeftArray {
     NSArray *One_leftArray = @[@"附近", @"熱門商區", @"香洲區", @"斗門區", @"金灣區"];
-    NSArray *Two_leftArray = [[NSArray alloc] init];
-    //    NSArray *R_leftArray = @[@"Test1", @"Test2"];
+    //    NSArray *Two_leftArray = [[NSArray alloc] init];
+    NSArray *Two_leftArray = @[@"Test1", @"Test2"];
+    NSArray *Three_leftArray = @[@"洗脚",@"大保健"];
+    NSArray *Four_leftArray = @[@"跑步",@"健身"];
     
     
-    _leftArray = [[NSArray alloc] initWithObjects:One_leftArray, Two_leftArray, nil];
+    _leftArray = [[NSArray alloc] initWithObjects:One_leftArray, Two_leftArray, Three_leftArray, Four_leftArray, nil];
 }
 
 //右边列表不可为空
@@ -109,14 +111,35 @@
                               @[
                                   @{@"title":@"one"},
                                   @{@"title":@"two"},
-                                  @{@"title":@"three"}
+                                  @{@"title":@"three"},
+                                  @{@"title":@"four"}
                                   ] ,
                               @[
                                   @{@"title":@"four"}
                                   ]
                               ];
+    NSArray *T_rightArray = @[
+                              @[
+                                  @{@"title":@"足浴"},
+                                  @{@"title":@"脚底按摩"}
+                                  ],
+                              @[
+                                  @{@"title":@"全套"},
+                                  @{@"title":@"推油"}
+                                  ]
+                              ];
+    NSArray *Fourth_rightArray = @[
+                               @[
+                                   @{@"title":@"接力跑"},
+                                   @{@"title":@"200米"}
+                                   ],
+                               @[
+                                   @{@"title":@"有氧运动"},
+                                   @{@"title":@"无氧运动"}
+                                   ]
+                               ];
     
-    _rightArray = [[NSArray alloc] initWithObjects:F_rightArray, S_rightArray, nil];
+    _rightArray = [[NSArray alloc] initWithObjects:F_rightArray, S_rightArray, T_rightArray, Fourth_rightArray, nil];
 }
 
 //实现代理，返回选中的下标，若左边没有列表，则返回0

@@ -43,7 +43,10 @@
     if (_buttonIndexArray.count > _buttonSelectedIndex){
         selected = [_buttonIndexArray objectAtIndex:_buttonSelectedIndex];
     } else {
-        [_buttonIndexArray addObject:selected];
+        for (int i = 0; i < _buttonSelectedIndex; i++) {
+            
+            [_buttonIndexArray addObject:selected];
+        }
     }
     NSArray *selectedArray = [selected componentsSeparatedByString:@"-"];
     NSString *left = [selectedArray objectAtIndex:0];
